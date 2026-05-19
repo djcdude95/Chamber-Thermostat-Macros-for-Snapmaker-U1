@@ -111,11 +111,7 @@ Additional macros:
 
 ## Fluidd Integration
 
-Macros automatically appear in:
-
-* Macros list
-* Macro buttons
-* Console commands
+Macros automatically appear in in the macro list and console commands.
 
 Supports parameter input directly from Fluidd.
 
