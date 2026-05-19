@@ -404,12 +404,6 @@ For purifier pinouts, fan wiring information, hardware experimentation, and usef
 
 [https://www.facebook.com/groups/snapmakeru1/posts/1274997118037665](https://www.facebook.com/groups/snapmakeru1/posts/1274997118037665)
 
-For the original inspiration and community experimentation surrounding smarter chamber fan behavior.
+For the original inspiration for me to make this and community experimentation surrounding the chamber fan wiring.
 
 ---
-
-# License
-
-MIT License
-
-Use freely, modify freely, no warranty implied.
