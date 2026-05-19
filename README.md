@@ -73,6 +73,7 @@ Observed behavior:
 * fan ramps correctly
 * fan turns on
 * fan does not reliably turn back off once chamber temperature drops below target
+* the PWM control was fairly noisey for the specific fan I was using. Full speed was basically noiseless.
 
 This project solves that by implementing:
 
