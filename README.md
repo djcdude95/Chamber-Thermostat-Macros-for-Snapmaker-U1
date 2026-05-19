@@ -323,7 +323,7 @@ STOP_AUTO_CHAMBER_FAN
 
 ## Start G-code
 
-You can use the chamber_temperature variable in your filament profile to automatically set the desired MAX chamber temperature. In this example I have it default to 40c if no chamber_temperature is definded.
+You can use the chamber_temperature variable in your filament profile to automatically set the desired MAX chamber temperature. In this example I have it default to 40c if no chamber_temperature is definded. You do _NOT_ need to check "Activate Temperature Control" in the filament profile for this to work.
 
 ```gcode
 AUTO_CHAMBER_FAN TARGET={if chamber_temperature[0] > 0}{chamber_temperature[0]}{else}40{endif} HYST=5
