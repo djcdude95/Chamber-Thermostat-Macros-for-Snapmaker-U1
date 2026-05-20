@@ -253,7 +253,7 @@ gcode:
 
 ## 4. Restart Klipper
 
-Run:
+Click "Save and Restart, or Run:
 
 ```gcode
 RESTART
@@ -348,23 +348,6 @@ AUTO_CHAMBER_FAN TARGET=40 HYST=5
 ```gcode
 STOP_AUTO_CHAMBER_FAN
 ```
-
----
-
-# Why Hysteresis Matters
-
-Without hysteresis:
-
-* fan rapidly cycles on/off
-* unstable chamber temperatures
-* excessive relay/fan wear
-
-With hysteresis:
-
-* stable thermal behavior
-* quieter operation
-* less fan wear
-* smoother chamber regulation
 
 ---
 
